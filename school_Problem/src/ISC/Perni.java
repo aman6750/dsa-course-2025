@@ -17,7 +17,7 @@ public class Perni {
 	}
 	
 	public int countOne(int k) {
-		System.out.println(k);
+//		System.out.println(k);
 		
 		if(k==0) {
 			return 0;

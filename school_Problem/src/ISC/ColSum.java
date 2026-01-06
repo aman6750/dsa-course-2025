@@ -30,8 +30,8 @@ public class ColSum {
 			int sum1 = 0;
 			int sum2 = 0;
 			for(int j=0; j<row; j++) {
-				sum1 += A.mat[i][j];
-				sum2 += B.mat[i][j];
+				sum1 += A.mat[j][i];
+				sum2 += B.mat[j][i];
 			}
 			if(sum1!=sum2) {
 				return false;
